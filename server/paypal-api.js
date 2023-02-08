@@ -78,14 +78,5 @@ async function handleResponse(response) {
   throw new Error(errorMessage);
 }
 
-// async function createAuth() {
-//   CLIENT_ID =
-//     "AdL6zjRId1MYjp8yH7yRYE7n9FTl2CS_x0NgkTrjMj20Jt2BE1p0tDk2UL1oYqE6iNSjNN7p8WhVKK4O";
-//   APP_SECRET = "EIRDGS8bG6AHv5tE6GbCFaZnXPir0G1p";
-//   const auth = Buffer.from(CLIENT_ID + ":" + APP_SECRET).toString("base64");
 
-//   // console.log(auth.split(":"));
-// }
-
-// exports.
 module.exports = paypalAPI;
